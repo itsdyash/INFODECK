@@ -1,0 +1,72 @@
+ body {
+            font-family: Arial, sans-serif;
+            background-color: #EEF0E5; /* Light Grayish Blue */
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            width: 50%;
+            margin: auto;
+            padding: 20px;
+            border: 1px solid #B6C4B6; /* Light Grayish Blue */
+            border-radius: 10px;
+            background-color: #fff;
+            margin-top: 50px;
+        }
+
+        label {
+            display: block;
+            margin: 5px 0 5px;
+        }
+
+        input,
+        select {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0 15px;
+            box-sizing: border-box;
+        }
+
+        button {
+            background-color: #304D30; /* Dark Grayish Blue */
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #163020; /* Darker Grayish Blue on hover */
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        header {
+            background-color: #304D30; /* Dark Grayish Blue */
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+
+        #email {
+            background-color: #EEF0E5; /* Light Grayish Blue */
+            
+        }
+
+        /* Style for the "New User? Register First" button */
+        .new-user-button {
+            background-color: #163020; /* Darker Grayish Blue */
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .new-user-button:hover {
+            background-color: #304D30; /* Dark Grayish Blue on hover */
+        }

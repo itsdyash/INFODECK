@@ -1,0 +1,66 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 21-Jan-2024, 1:35:33 pm
+    Author     : dhana
+*/
+
+/* Add this CSS to your ALLSUBCSS.css file */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #EEF0E5;
+    color: #333;
+}
+
+.Subjects {
+    background-color: #B6C4B6;
+    padding: 10px;
+    text-align: center;
+}
+
+.Subjects a {
+    color: #163020;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 18px;
+}
+
+.Subjects a:hover {
+    color: #27ae60;
+}
+
+.content {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #EEF0E5;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.content h2 {
+    margin-bottom: 20px;
+}
+
+.content p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Responsive Styles */
+@media only screen and (max-width: 600px) {
+    .Subjects a {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .content {
+        padding: 15px;
+    }
+}

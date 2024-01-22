@@ -1,0 +1,109 @@
+/* Add this CSS to your home.css file */
+
+
+/* Cover styles */
+.cover {
+    background-image: url('cover.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.cover h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.cover p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.cover a {
+    background-color: #304D30;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+/* Courses section styles */
+.courses-section {
+    max-width: 800px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.course-rectangle {
+    display: inline-block;
+    width: calc(30% - 20px);
+    margin: 10px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    overflow: hidden;
+    cursor: pointer;
+    text-decoration: none;
+    color: #333;
+}
+
+.course-rectangle img {
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.course-details {
+    padding: 10px;
+}
+
+h2 {
+    margin: 10px 0;
+    font-size: 18px;
+    color: #333;
+}
+
+.start-watching-button,
+.SEND_EMAIL {
+    display: block;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: #304D30;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 0 0 5px 5px;
+}
+
+/* Testimonial section styles */
+.testimonial-section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #EEF0E5;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial {
+    margin-bottom: 20px;
+}
+
+.testimonial p {
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.testimonial p:last-child {
+    font-weight: bold;
+}

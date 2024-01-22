@@ -1,0 +1,45 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 21-Jan-2024, 10:18:23 pm
+    Author     : dhana
+*/
+
+body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color: #f4f4f4;
+        color: #333;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        margin: 0;
+    }
+
+    /* Wrap your styles in a class for better structure */
+    .container {
+        text-align: center;
+    }
+
+    h2 {
+        color: #27ae60; /* Green */
+        margin-bottom: 10px; /* Add some spacing below the heading */
+    }
+
+    p {
+        font-size: 18px;
+        line-height: 1.5; /* Improve readability with increased line height */
+    }
+
+    /* Add responsive styles */
+    @media only screen and (max-width: 768px) {
+        h2 {
+            font-size: 24px;
+        }
+
+        p {
+            font-size: 16px;
+        }
+    }
