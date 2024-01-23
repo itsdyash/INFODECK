@@ -1,117 +1,95 @@
-<%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title>INFOWIKI</title>
-    <link rel="stylesheet" type="text/css" href="ALLSUB.css">
-    <style>
-        /* Two-column layout */
-        .wiki-container {
-            display: flex;
-            max-width: 1200px;
-            margin: 20px auto;
-        }
 
-        .subtopics {
-            width: 25%;
-            padding: 20px;
-            background-color: #B6C4B6;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>INFOWIKI</title>
+        <link rel="stylesheet" type="text/css" href="wiki.css">
+        <link rel="stylesheet" type="text/css" href="allSub.css">
+    </head>
 
-        .content {
-            width: 75%;
-            padding: 20px;
-            background-color: #fff;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
+</style>
+    <body>
+        <jsp:include page="header.jsp" />
 
-        .search-bar {
-            margin-bottom: 20px;
-        }
+        <div class="Subjects" id="Subjects">
+            <h1>
+                <a href="java.jsp">Java</a>
+                <a href="python.jsp">Python</a>
+                <a href="Cplus.jsp">C++</a>
+                <a href="c.jsp">C</a>
+                <a href="javascript.jsp">JavaScript</a>
 
-        /* Media queries for responsiveness */
-        @media only screen and (max-width: 768px) {
-            .wiki-container {
-                flex-direction: column;
-            }
 
-            .subtopics,
-            .content {
-                width: 100%;
-                margin-bottom: 20px;
-            }
-        }
-    </style>
-</head>
-<body>
-    <jsp:include page="header.jsp"/>
-    <div class="Subjects" id="Subjects">
-        <h1>
-            <a href="java.jsp">Java</a>
-            <a href="python.jsp">Python</a>
-            <a href="Cplus.jsp">C++</a>
-            <a href="c.jsp">C</a>
-            <a href="javascript.jsp">JavaScript</a>
-        </h1>
-    </div>
-    
-    <div class="wiki-container">
-        <!-- Left side: Subtopics -->
-        <div class="subtopics">
-            <h2>Subtopics</h2>
-            <ul>
-                <li><a href="#java-intro">Java Introduction</a></li>
-                <li><a href="#java-chapter1">Java Chapter 1</a></li>
-                <li><a href="#java-chapter2">Java Chapter 2</a></li>
-                <!-- Add more subtopics as needed -->
-            </ul>
+            </h1>
         </div>
+        <div class="course-container">
+            <div class="left-container">
+                <h2>JAVA/Chapters</h2>
+                <div class="pages">
+                    <a href="#" onclick="showContent(1)">Chapter 1</a>
+                    <a href="#" onclick="showContent(2)">Chapter 2</a>
+                    <a href="#" onclick="showContent(3)">Chapter 3</a>
+                    <a href="#" onclick="showContent(4)">Chapter 4</a>
+                    <a href="#" onclick="showContent(5)">Chapter 5</a>
+                    <a href="#" onclick="showContent(6)">Chapter 6</a>
+                    <a href="#" onclick="showContent(7)">Chapter 7</a>
+                    <a href="#" onclick="showContent(8)">Chapter 8</a>
+                    <a href="#" onclick="showContent(9)">Chapter 9</a>
+                    <a href="#" onclick="showContent(10)">Chapter 10</a>
+                </div>
+            </div>
 
-        <!-- Right side: Content -->
-        <div class="content">
-            <div class="search-bar">
-                <form id="searchForm" onsubmit="return searchContent()">
-                    <label for="search">Search:</label>
-                    <input type="text" id="search" name="search">
-                    <button type="submit">Go</button>
+            <div class="right-container">
+                <h1 style="color:#27ae60">Java</h1>
+            </div>
+
+            <!-- Notes Section -->
+            <div class="notes-section">
+                <h2>Notes Section</h2>
+                <form action="your_page_name.jsp" method="post">
+                    <textarea class="notes-input" name="userNote" placeholder="Add your notes here..."></textarea>
+                    <button type="submit">SUBMIT</button>
                 </form>
             </div>
-
-            <div class="java" id="java-intro">
-                <p>
-                    <strong>Java Introduction:</strong> Java is a high-level, class-based, object-oriented programming language
-                    that is designed to have as few implementation dependencies as possible.
-                    It is intended to let application developers write once, run anywhere (WORA), meaning that
-                    compiled Java code can run on all platforms that support Java without the need for recompilation.
-                </p>
-            </div>
-
-            <div class="java" id="java-chapter1">
-                <p>
-                    <strong>Java Chapter 1:</strong> This is the content of Java Chapter 1. It covers various topics related to
-                    Java programming and serves as a foundation for further learning.
-                </p>
-            </div>
-
-            <div class="java" id="java-chapter2">
-                <p>
-                    <strong>Java Chapter 2:</strong> In this chapter, we explore advanced concepts in Java programming,
-                    including object-oriented principles, design patterns, and more.
-                </p>
-            </div>
         </div>
-    </div>
 
-    <jsp:include page="footer.jsp"/>
+        <script>
+            function showContent(chapter) {
+                var content = "";
 
-    <!-- ... (previous HTML code) ... -->
+                switch (chapter) {
+                    case 1:
+                        content = "<h2>Chapter 1: Introduction to Java</h2>" +
+                                "<p>This chapter covers the basics of Java programming and introduces you to the world of programming with Java.</p>" +
+                                "</div>";
+                        break;
 
+                    case 2:
+                        content = "<h2>Chapter 2: Variables and Data Types</h2>" +
+                                "<p>Learn about variables, data types, and how to declare and use them in Java programs.</p>" +
+                                "<div class='video-container'>" +
+                                "</div>";
+                        break;
 
-<!-- ... (remaining HTML code) ... -->
+                    case 3:
+                        content = "<h2>Chapter 3: Control Flow</h2>" +
+                                "<p>Understand control flow statements such as if, else, and loops to control the flow of your Java programs.</p>" +
+                                "<div class='video-container'>" +
+                                "</div>";
+                        break;
 
-</body>
+                        // Add content for the remaining chapters similarly
+
+                    default:
+                        content = "<p>No content available for this chapter.</p>";
+                        break;
+                }
+
+                document.querySelector(".right-container").innerHTML = content;
+            }
+        </script>
+        <jsp:include page="footer.jsp" />
+    </body>
+
 </html>

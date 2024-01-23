@@ -13,7 +13,6 @@
             margin: 0;
             font-family: 'Arial', sans-serif;
         }
-
         /* Footer styles */
         footer {
             background-color: #304D30;
