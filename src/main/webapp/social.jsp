@@ -43,7 +43,7 @@ nav a {
 /* Under Construction Section */
 .construction-section {
     text-align: center;
-    padding: 50px;
+    padding: 200px;
     background-color: #fff;
     margin: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
