@@ -108,14 +108,14 @@
     <jsp:include page="header.jsp" />
     <div class="course-container">
         <div class="left-container">
-            <h1 style="background-color:#27ae60">Java Programming Course</h1>
+            <h1 style="color:#27ae60">Java Programming Course</h1>
 
             <div class="video-container">
                 <!-- Replace 'VIDEO_ID' with the actual YouTube video ID -->
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID" frameborder="0" allowfullscreen></iframe>
             </div>
 
-            <h2 style="background-color:#27ae60">About the Course</h2>
+            <h2 style="color:#27ae60">About the Course</h2>
             <p>
                 Welcome to our Java Programming Course! In this course, you will learn the fundamentals of Java programming,
                 object-oriented concepts, and how to build Java applications. The course is designed for beginners with no
