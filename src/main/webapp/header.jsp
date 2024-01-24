@@ -1,6 +1,5 @@
-<%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -33,6 +32,10 @@
             color: white;
             margin-left: 20px;
         }
+        nav a :hover {
+            background-color: rgba(255, 255, 255, 0.2);
+            color: #fff;
+        }
 
         /* Media queries for responsiveness */
 
@@ -49,6 +52,10 @@
             nav a {
                 margin: 5px;
             }
+
+            .logout-btn {
+                margin: 10px 0;
+            }
         }
 
         @media only screen and (max-width: 400px) {
@@ -56,19 +63,30 @@
                 padding: 10px;
             }
         }
-
-       
     </style>
 </head>
 <body>
     <header>
         <h1>InfoDeck</h1>
         <nav>
+            <% 
+        String userRole = (String) session.getAttribute("userRole");
+        if ("admin".equals(userRole)) { 
+    %>
+            <a href="admin.jsp">Admin Page</a>
+    <%
+        }
+    %>
             <a href="home.jsp">Home</a>
             <a href="courses.jsp">Courses</a>
             <a href="wiki.jsp">Wiki</a>
             <a href="social.jsp">Social</a>
             <a href="about.jsp">About</a>
+             
+            
+            <form action="LogoutServlet" method="post">
+                <button class="logout-btn" type="submit">Logout</button>
+            </form>
             <!-- Add more pages as needed -->
         </nav>
     </header>

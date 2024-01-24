@@ -47,8 +47,21 @@
 
         <!-- Login Form -->
         <div class="login" id="loginSection">
+             <%-- Display error message if it exists in the session --%>
+            <%
+                String loginError = (String) session.getAttribute("loginError");
+                if (loginError != null) {
+            %>
+                <script>
+                    alert('<%= loginError %>');
+                </script>
+            <%
+                    // Remove the error message from the session
+                    session.removeAttribute("loginError");
+                }
+            %>
             <h2>Login to InfoDeck</h2>
-            <form action="home.jsp" method="post">
+            <form action="LoginServlet" method="post">
                 <label for="loginEmail">Email:</label>
                 <input type="email" id="loginEmail" name="email" value="<%= userEmail %>" required>
                 <label for="loginPassword">Password:</label>
