@@ -41,13 +41,13 @@
     <h2>User Registration</h2>
     <form action="register" method="post">
         <label for="name">Name:</label>
-        <input type="text" id="name" name="name" required>
+        <input type="text" id="uName" name="uName" required>
 
         <label for="phoneNumber">Phone Number:</label>
-        <input type="tel" id="phoneNumber" name="phoneNumber" required>
+        <input type="tel" id="uContact" name="uContact" required>
 
         <label for="education">Education:</label>
-        <select id="education" name="education" required>
+        <select id="uEdu" name="uEdu" required>
             <option value="" disabled selected>Select Education</option>
             <option value="bsc">B.Sc. in Computer Science</option>
             <option value="msc">M.Sc. in Computer Science</option>
@@ -56,10 +56,10 @@
         </select>
 
         <label for="email">Email:</label>
-        <input type="email" id="email" name="email" value="<%= email %>" readonly>
+        <input type="email" id="uEmail" name="uEmail" value="<%= email %>" readonly>
 
         <label for="Password">Password:</label>
-        <input type="password" id="password" name="password" required>
+        <input type="password" id="uPwd" name="uPwd" required>
         <button type="submit">Register</button>
     </form>
 </div>
