@@ -144,7 +144,7 @@
                 <!-- Notes Section -->
                 <div class="notes-section">
                     <h2>Notes Section</h2>
-                    <form action="your_page_name.jsp" method="post">
+                    <form action="NoteSave" method="post">
                         <textarea class="notes-input" name="userNote" placeholder="Add your notes here..."></textarea>
                         <button type="submit">SUBMIT</button>
                     </form>

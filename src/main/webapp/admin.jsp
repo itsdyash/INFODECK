@@ -45,23 +45,13 @@
     String adminEmail = (String) session.getAttribute("adminEmail");
 %>
 
-<main>
     <h2>Welcome, Admin!</h2>
     <p>Email: <%= adminEmail %></p>
 
     <h2>User Details</h2>
+    <form action="UserDetailsServlet" method="GET">
+        <input type="submit" value="SUBMIT">
+    </form>
 
-    <table>
-        <thead>
-            <tr>
-                <th>User ID</th>
-                <th>Name</th>
-                <th>Contact</th>
-                <th>Educational Background</th>
-                <th>Email</th>
-                <th>Action</th>
-            </tr>
-        </thead>
-       
 </body>
 </html>
