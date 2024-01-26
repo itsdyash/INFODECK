@@ -3,7 +3,7 @@
 
 /* Cover styles */
 .cover {
-    background-image: url('cover.jpg');
+    background-image: url("CoverImage.jpg");
     background-size: cover;
     background-position: center;
     height: 500px;
@@ -90,7 +90,7 @@ h2 {
     max-width: 800px;
     margin: 20px auto;
     padding: 20px;
-    background-color: #EEF0E5;
+    background-color: whitesmoke;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }

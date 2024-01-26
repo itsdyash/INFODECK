@@ -11,36 +11,6 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>INFOSOCIAL</title>
         <style>
-/* Common styles (similar to other pages) */
-body {
-    font-family: 'Arial', sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f5f5f5;
-    color: #333;
-}
-
-header {
-    background-color: #163020;
-    color: white;
-    padding: 15px 0;
-    text-align: center;
-}
-
-nav {
-    display: flex;
-    justify-content: center;
-    margin-top: 10px;
-}
-
-nav a {
-    margin: 0 15px;
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-/* Under Construction Section */
 .construction-section {
     text-align: center;
     padding: 200px;

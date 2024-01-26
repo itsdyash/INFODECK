@@ -23,7 +23,7 @@
 
                 <div class="course-grid">
                     <a href="java_course.html" class="course-rectangle">
-                        <img src="test.jpg" alt="Java Course">
+                        <img src="JavaCourse.jpg" alt="Java Course">
                         <div class="course-details">
                             <h2>Java Course</h2>
                             <p>Description: Learn Java programming language.</p>
@@ -32,40 +32,24 @@
                     </a>
 
                     <a href="java_course.html" class="course-rectangle">
-                        <img src="test.jpg" alt="Java Course">
-                        <div class="course-details">
-                            <h2>Java Course</h2>
-                            <p>Description: Learn Java programming language.</p>
-                            <button class="start-course-button">Start Course</button>
-                        </div>
-                    </a>
-
-                    <a href="java_course.html" class="course-rectangle">
-                        <img src="test.jpg" alt="Java Course">
-                        <div class="course-details">
-                            <h2>Java Course</h2>
-                            <p>Description: Learn Java programming language.</p>
-                            <button class="start-course-button">Start Course</button>
-                        </div>
-                    </a>
-
-                    <a href="java_course.html" class="course-rectangle">
-                        <img src="test.jpg" alt="Java Course">
-                        <div class="course-details">
-                            <h2>Java Course</h2>
-                            <p>Description: Learn Java programming language.</p>
-                            <button class="start-course-button">Start Course</button>
-                        </div>
-                    </a>
-
-                    <a href="python_course.html" class="course-rectangle">
-                        <img src="test.jpg" alt="Python Course">
+                        <img src="PythonCourse.jpg" alt="Java Course">
                         <div class="course-details">
                             <h2>Python Course</h2>
-                            <p>Description: Explore Python programming language.</p>
+                            <p>Description: Learn Python programming language.</p>
                             <button class="start-course-button">Start Course</button>
                         </div>
                     </a>
+                    <a href="Cpp.html" class="course-rectangle">
+                        <img src="CppCourse.jpg" alt="Cpp Course">
+                        <div class="course-details">
+                            <h2>C++ Course</h2>
+                            <p>Master C++ Like a Pro!<br>Description: Learn C++ programming language.</p>
+                        </div>
+                        <button class="start-course-button">Start Course</button>
+                    </a>
+
+
+
 
                     <!-- Add more free courses as needed -->
 
@@ -78,7 +62,7 @@
 
                 <div class="course-grid">
                     <a href="c_course.html" class="course-rectangle">
-                        <img src="test.jpg" alt="C Course">
+                        <img src="CCourse.jpg" alt="C Course">
                         <div class="course-details">
                             <h2>C Course</h2>
                             <p>Description: Master the fundamentals of C programming.</p>
@@ -86,14 +70,16 @@
                         </div>
                     </a>
 
-                    <a href="web_dev_course.html" class="course-rectangle">
-                        <img src="test.jpg" alt="Web Development Course">
+                    <a href="python_course.html" class="course-rectangle">
+                        <img src="PythonCourse.jpg" alt="Python Course">
                         <div class="course-details">
-                            <h2>Web Development Course</h2>
-                            <p>Description: Learn the essentials of web development.</p>
+                            <h2>Python Course</h2>
+                            <p>Description: Explore Python programming language.</p>
                             <button class="start-course-button">Start Course</button>
                         </div>
                     </a>
+
+
 
                     <!-- Add more paid courses as needed -->
 

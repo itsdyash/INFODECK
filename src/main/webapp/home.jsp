@@ -11,7 +11,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Welcome to InfoDeck</title>
-        <link rel="stylesheet" type="text/css" href="home.css">
+        <link rel="stylesheet" type="text/css" href="homes.css">
 
     <body>
         <jsp:include page="header.jsp" />
@@ -27,7 +27,7 @@
             <h2>Our Courses</h2>
 
             <a href="javaCourse.jsp" class="course-rectangle">
-                <img src="test.jpg" alt="Java Course">
+                <img src="JavaCourse.jpg" alt="Java Course">
                 <div class="course-details">
                     <h2>Java Course</h2>
                     <p>Learn Java programming language.</p>
@@ -36,7 +36,7 @@
             </a>
 
             <a href="python_course.html" class="course-rectangle">
-                <img src="test.jpg" alt="Python Course">
+                <img src="PythonCourse.jpg" alt="Python Course">
                 <div class="course-details">
                     <h2>Python Course</h2>
                     <p>Explore Python programming language.</p>
@@ -45,18 +45,18 @@
             </a>
 
             <a href="c_course.html" class="course-rectangle">
-                <img src="test.jpg" alt="C Course">
+                <img src="CCourse.jpg" alt="C Course">
                 <div class="course-details">
                     <h2>C Course</h2>
                     <p>Master the fundamentals of C.</p>
                 </div>
                 <button class="start-watching-button">Start Watching</button>
             </a>
-            <a href="c_course.html" class="course-rectangle">
-                <img src="test.jpg" alt="C Course">
+            <a href="Cpp.html" class="course-rectangle">
+                <img src="CppCourse.jpg" alt="Cpp Course">
                 <div class="course-details">
-                    <h2>DSA Course</h2>
-                    <p>Master DSA Like a Pro!</p>
+                    <h2>C++ Course</h2>
+                    <p>Master C++ Like a Pro!</p>
                 </div>
                 <button class="start-watching-button">Start Watching</button>
             </a>
@@ -66,7 +66,7 @@
                     <h2>Work with Us!</h2>
                     <p>Become a Instructor</p>
                 </div>
-                <button class="SEND_EMAIL">SEND RESUME!</button>
+                <button class="SEND_EMAIL" style="background-color: purple">SEND RESUME!</button>
             </a>
         </div>
 

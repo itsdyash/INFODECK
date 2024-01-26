@@ -11,6 +11,11 @@ import java.sql.PreparedStatement;
 import java.sql.SQLException;
 import static com.DbConnection.DbConnection.getConnection;
 
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import java.net.HttpURLConnection;
+import java.net.URL;
+
 public class register extends HttpServlet {
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
@@ -24,11 +29,12 @@ public class register extends HttpServlet {
             out.println("<meta http-equiv='refresh' content='5;url=LoginSignUp.jsp'>");
             out.println("<meta name='viewport' content='width=device-width, initial-scale=1.0'>");
             out.println("<link rel=\"stylesheet\" type=\"text/css\" href=\"registerS.css\">");
-            out.println("<title>Servlet register</title>");
+            out.println("<title>Servlet RegisterServlet</title>");
             out.println("</head>");
             out.println("<body>");
             out.println("<div id='container'>");
 
+            // Get user input
             String uName = request.getParameter("uName");
             String uContact = request.getParameter("uContact");
             String uEdu = request.getParameter("uEdu");
