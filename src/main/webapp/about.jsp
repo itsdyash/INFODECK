@@ -104,7 +104,7 @@
 
             <!-- Creator 1 -->
             <div class="creator">
-                <img src="test.jpg" alt="Creator 1">
+                <img src="IMG-20240115-WA0002.jpg" alt="Creator 1">
                 <h3>DURGA</h3>
                 <p>Web Developer-The Visionary Developer:
                     Embark on a digital journey with John Doe, the visionary web developer behind InfoDeck.
@@ -119,7 +119,7 @@
 
             <!-- Creator 2 -->
             <div class="creator">
-                <img src="test.jpg" alt="Creator 2">
+                <img src="Untitled design 2.jpg" alt="Creator 2">
                 <h3>MANAS</h3>
                 <p>UI/UX Designer-The Artisan of User Experience:
                     Meet Jane Smith, the artistic force shaping the user experience at InfoDeck. As our UI/UX designer, 
@@ -133,7 +133,7 @@
 
             <!-- Creator 3 -->
             <div class="creator">
-                <img src="test.jpg" alt="Creator 3">
+                <img src="IMG-20240115-WA0001.jpg" alt="Creator 3">
                 <h3>DHANANJAY</h3>
                 <p>Content Writer-The Wordsmith of Knowledge:
                     At the heart of InfoDeck's content is Alex Johnson, our dedicated content writer. 

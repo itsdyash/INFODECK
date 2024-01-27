@@ -66,12 +66,11 @@
                     }
                 %>
                 <h2>Login to InfoDeck</h2>
-                <form action="LoginServlet" method="post"  onsubmit="return validateCaptcha()">
+                <form action="LoginServlet" method="post">
                     <label for="loginEmail">Email:</label>
                     <input type="email" id="loginEmail" name="email" value="<%= userEmail %>" required>
                     <label for="loginPassword">Password:</label>
                     <input type="password" id="loginPassword" name="password" required>
-                    <div class="g-recaptcha" data-sitekey="6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI"></div>
                     <button type="submit">Log In</button>
                 </form>
                 <form onsubmit="showSignUpSection(); return false;">

@@ -25,7 +25,7 @@
         <!-- Add the main content of your home page here -->
         <div class="courses-section" id="courses-section">
             <h2>Our Courses</h2>
-
+            
             <a href="javaCourse.jsp" class="course-rectangle">
                 <img src="JavaCourse.jpg" alt="Java Course">
                 <div class="course-details">

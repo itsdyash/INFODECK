@@ -30,12 +30,20 @@
         nav a {
             text-decoration: none;
             color: white;
-            margin-left: 20px;
+            margin-left: 30px;
         }
         nav a :hover {
             background-color: rgba(255, 255, 255, 0.2);
             color: #fff;
         }
+         .logout-btn {
+                background-color:transparent ;
+                color: white;
+                border: none;
+                font-size: 16px;
+                margin-left: 30px;
+                cursor: pointer;
+            }
 
         /* Media queries for responsiveness */
 
@@ -83,7 +91,6 @@
             <a href="social.jsp">Social</a>
             <a href="about.jsp">About</a>
              
-            
             <form action="LogoutServlet" method="post">
                 <button class="logout-btn" type="submit">Logout</button>
             </form>
