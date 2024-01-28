@@ -106,9 +106,8 @@
 
                 <div class="video-container">
                     <!-- Replace 'VIDEO_ID' with the actual YouTube video ID -->
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/FMGzSPfVOu8?si=mVkyNjO5ZNn0MsAo" 
-                            title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write;
-                            encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID" frameborder="0" allowfullscreen></iframe>
+                </div>
 
                 <h2 style="color:#27ae60">About the Course</h2>
                 <p>
