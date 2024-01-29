@@ -7,8 +7,6 @@
         <link rel="stylesheet" type="text/css" href="wiki.css">
         <link rel="stylesheet" type="text/css" href="allSub.css">
     </head>
-
-</style>
     <body>
         <jsp:include page="header.jsp" />
 
