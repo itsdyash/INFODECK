@@ -1,1 +1,1 @@
-# INFODECK
+# INFO
